@@ -1,0 +1,17 @@
+{
+    "name": "Israel/proj02",
+    "description": "Projeto para testar minhas habilidade no git e github",
+    "authors": [
+        {
+            "name": "Israel Nascimento Pereira",
+            "email": "israelpereira1984@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-0": {
+            "application\\" : "src/"
+        }
+    }
+}
