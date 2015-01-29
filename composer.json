@@ -4,14 +4,21 @@
     "authors": [
         {
             "name": "Israel Nascimento Pereira",
-            "email": "israelpereira1984@gmail.com"
+            "email": "israelpereira1984@gmail.com",
+            "name": "Isael Sousa",
+            "email": "faelp22@hotmail.com"
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
-    "autoload":{
-        "psr-0": {
-            "application\\" : "src/"
+    "require": {
+        "php": ">=5.3.7",
+        "phpunit/phpunit": "4.4.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "application\\": "src/",
+            "Calc\\": "src/application/Calc/",
+            "tdd\\": "src/application/FizzBuzz/"
         }
     }
 }
